@@ -81,10 +81,15 @@ If you decided to use Python 2, the last command will read instead:
 sudo apt-get install python-pip
 ```
 
-Next, we need to install the PIGPIO libraries, to do so, type:
+Next, we need to install the Python development libraries, to do so, type:
 
 ```sh
-sudo apt-get install pigpio
+sudo apt-get install python3-dev
+```
+
+If you decided to use Python 2, the last command will read instead:
+```sh
+sudo apt-get install python-dev
 ```
 
 Next install the required Python Libraries:
